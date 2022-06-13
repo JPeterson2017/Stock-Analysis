@@ -18,6 +18,10 @@ By refactoring the new code, we were able to avoid the multiple nested loops tha
 ### Stock Performance Between 2017 & 2018
 A quick analysis of the results indicates that 2017 was a much stronger year for these stocks than 2018. However, Based on the exponential growth that stocks such as DQ and SEDG had in 2017, 2018 was not that significant of a drop in return, and DQ exponential increased it's Total Daily Volume.  
 
+![2017_Results!](/Resources/2017_Results.png)
+
+![2018_Results!](/Resources/2018_Results.png)
+
 ## Summary
 
 ### Advantages and Disadvantages of Refactoring Code 
