@@ -11,15 +11,20 @@ In order to allow Steve to run the code and view the results with minimum effort
 ### Refactored Code vs Original Code
 By refactoring the new code, we were able to avoid the multiple nested loops that were used in the original document. By using the tickerIndex, we were able to gather all of the values for each ticker, seamlessly. The execution time decreased by over 10% from the original code's execution time. 
 
+![Challenge_2017_RunTime!](/Resources/VBA_Challenge_2017.png)
 
+![Challenge_2018_RunTime!](/Resources/VBA_Challenge_2018.png)
 
 ### Stock Performance Between 2017 & 2018
 A quick analysis of the results indicates that 2017 was a much stronger year for these stocks than 2018. However, Based on the exponential growth that stocks such as DQ and SEDG had in 2017, 2018 was not that significant of a drop in return, and DQ exponential increased it's Total Daily Volume.  
 
 ## Summary
 
-Advantages and disadvantages of refactoring code 
+### Advantages and Disadvantages of Refactoring Code 
 
-How do these pros and cons apply to refactoring the original VBA script
-Detailed statement on advantages and disadvantages of the original and refactored VBA script
+An Advantage to refactoring code is the once you have it written the first time, you are able to find ways to rearrange it and make it better. One of the biggest disadvantages is that these alternative methods are not always "common-sense" and take a lot of research to configure the code in a way to where it still produces the same result, but in a quicker amount of time. 
+
+### Comparing the Codes
+
+The original VBA script provided a bit more logic in the sense that it was all a relative process within a process. Being unfamiliar with VBA, it was a lot more difficult for me to try to figure out how to create the missing puzzle pieces and then reconfigure them in a way that we hadn't necessarily done before. An advantage was knowing what the results should be and how to get them to land in the appropriate position. A disadvantage was also trying to figure out why the annual return was giving us an "overflow" error. Once you are able to identify the problem though, the solution starts to come easier and easier. 
 
